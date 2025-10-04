@@ -11,7 +11,9 @@ This project showcases a simple **ETL pipeline** on AWS where:
 - **AWS Glue** reads, transforms, and outputs only the required columns.  
 - The final processed dataset is written back to S3 for reporting and analytics.  
 
-## 3. Architecture Diagram  
+## 3. Architecture Diagram
+<img width="1121" height="481" alt="csv datapipeline" src="https://github.com/user-attachments/assets/4d6b6137-66fb-4986-a475-84b772fd59af" />
+
 
 ## 4. User Instructions  
 ### Requirements  
