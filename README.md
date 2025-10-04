@@ -18,11 +18,12 @@ This project showcases a simple **ETL pipeline** on AWS where:
   - S3 Bucket  
 - AWS Glue Studio
 - IAM
+- Lambda
  
 ### Steps  
 1. Upload your CSV file into an S3 bucket   
 2. Open **AWS Glue Studio**.  
-3. Create a new job and paste the script provided in this repo.  
+3. Create a new job and paste the script provided in AWS Lambda  
 4. Update the S3 path in the script to match your bucket.  
 5. Assign an IAM role with S3 + Glue permissions.  
 6. Run the job and check output in s3.  
@@ -34,11 +35,11 @@ This project was built with:
 - **AWS Glue** for ETL  
 - **Amazon S3** for storage  
 - **IAM Roles** for security  
-- **Python** inside Glue scripts  
+- **Python** for AWS Lambda
 
 ### Steps I followed:  
 - Created an S3 bucket and uploaded my CSV file 
-- Configured a Glue job with a Python script to transform the CSV.  
+- Configured a Glue job with a Python script in lambda to transform the CSV.  
 - Selected worker nodes and IAM roles.  
 - Ran the job and verified results in S3.  
 
